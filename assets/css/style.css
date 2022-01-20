@@ -1,0 +1,42 @@
+.headerbar {
+    background-color: rgb(39, 12, 65);
+    color:white;
+    text-align: center;
+
+}
+
+
+button {
+    background: radial-gradient(circle, rgb(92, 49, 49) 0%, rgba(197, 68, 75, 0.954) 100%);
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 2em;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 20px 52px;
+    text-align: center;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    margin-top: 0.6em;
+  }
+  
+
+.questions {
+    text-align: center;
+}
+
+.answers {
+    display: grid;
+    grid-template-columns: repeat(2);
+    gap: 5px;
+    margin: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+

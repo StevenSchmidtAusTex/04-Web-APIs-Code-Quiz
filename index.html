@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Web APIs Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid headerbar">
+        <div class="container">
+          <h1 class="display-4">Web APIs Quiz</h1>
+          <button id="start-button" class="start-button">Start</button>
+          <button id="next-button" class="next-button hide">Next</button>
+          <div class = "timer-text">
+          <div class="timerCount display-3">300</div>
+          <h2>Seconds Remaining</h2>
+        </div>
+        </div>
+      </div>
+
+      <div id="questionContainer" class="card w-50 mx-auto hide">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p id="question" class="card-text"></p>
+         <button class="btn btn-primary answerBtns"></button>
+         <button class="btn btn-primary answerBtns"></button>
+          <button class="btn btn-primary answerBtns"></button>
+          <button class="btn btn-primary answerBtns"></button>
+
+        </div>
+      </div>
+      <form>
+        <div class="form-group hide">
+          <label for="exampleFormControlInput1">Enter your Initials!</label>
+          <input type="Initials" class="form-control" id="exampleFormControlInput1">
+        </div>
+
+
+
+<script 
+      type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="./assets/javascript/script.js"></script>
+</body>
+</html>
